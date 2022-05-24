@@ -1,0 +1,16 @@
+.create-devices__main-container{
+    background-color: #ffe6e8;   
+    margin: 2rem;
+    width: 40vh;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.create-devices__main-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-devices__text-field{
+    margin-bottom: 1rem !important;
+}
