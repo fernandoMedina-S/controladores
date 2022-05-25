@@ -39,7 +39,7 @@ export const data = [
     {
         id: 2,
         type: 'Impresora',
-        name: 'Epson L3130',
+        name: 'Canon MP301',
         location: "/run/media/printers",
         size: "10",
         state: "active",

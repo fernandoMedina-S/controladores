@@ -30,10 +30,10 @@ createTheme(
 );
 
 const ControlTable = (props) => {
-
-    const handleClick = (id) => {
-        props.changeState(id);
-    }
+  const handleClick = (id) => {
+    props.changeState(id);
+    props.changeProgress(id);
+  };
   return (
     <div className="control-table__main-container">
       <DataTable
@@ -43,7 +43,12 @@ const ControlTable = (props) => {
           {
             cell: (row) => (
               <>
-                <Button variant="contained" color="info" size="small" onClick={()=>handleClick(row.id)}>
+                <Button
+                  variant="contained"
+                  color="info"
+                  size="small"
+                  onClick={() => handleClick(row.id)}
+                >
                   Cambiar
                 </Button>
               </>
