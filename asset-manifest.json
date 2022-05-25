@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/controladores/static/css/main.b3edb67b.css",
+    "main.js": "/controladores/static/js/main.27ccd4cb.js",
+    "static/js/787.d1c96969.chunk.js": "/controladores/static/js/787.d1c96969.chunk.js",
+    "index.html": "/controladores/index.html",
+    "main.b3edb67b.css.map": "/controladores/static/css/main.b3edb67b.css.map",
+    "main.27ccd4cb.js.map": "/controladores/static/js/main.27ccd4cb.js.map",
+    "787.d1c96969.chunk.js.map": "/controladores/static/js/787.d1c96969.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3edb67b.css",
+    "static/js/main.27ccd4cb.js"
+  ]
+}
